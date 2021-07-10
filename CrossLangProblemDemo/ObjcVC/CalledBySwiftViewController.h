@@ -13,7 +13,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CalledBySwiftViewController : UIViewController
 @property (nonatomic, weak) FlowCoordinator *coordinator;
-- (id <Storyboarded>) storyboarded;
 @end
 
 NS_ASSUME_NONNULL_END
